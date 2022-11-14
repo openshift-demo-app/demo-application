@@ -50,4 +50,4 @@ oc new-app centos/mongodb-26-centos7 -e MONGODB_USER=admin -e MONGODB_DATABASE=m
 oc get status
 4.3 Update the node js application to use the newly created database
 
-oc set env deployment/demo-application MONGO_URL='mongodb://admin:secret@ 172.30.127.119:27017/mongo_db'
+oc set env deployment/demo-application MONGO_URL=mongodb://admin:secret@ 172.30.127.119:27017/mongo_db
