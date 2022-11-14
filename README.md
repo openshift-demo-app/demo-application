@@ -29,7 +29,7 @@ TBD
 
 To trigger build manually, use the below command
 
-    oc start-build nodejs-ex --follow
+    oc start-build demo-application --follow
 
 ### Accessing the application
 
